@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /SmartTraining/
+
+RewriteRule ^auth/? ?p=auth
+
+RewriteRule ^home/? ?p=home
+RewriteRule ^matalatihan/? ?p=matalatihan
+RewriteRule ^elementkompetensi/? ?p=elementkompetensi
+RewriteRule ^kriteriaunitkerja/? ?p=kriteriaunitkerja
+RewriteRule ^indikatorunitkerja/? ?p=indikatorunitkerja
+RewriteRule ^pbk/? ?p=pbk
+
+
+
+RewriteRule ^pendaftaran/? ?p=pendaftaran
+
+
