@@ -25,6 +25,7 @@ if(@!$_GET['p']){
         case "elementkompetensi":
         case "kriteriaunitkerja":
         case "indikatorunitkerja":
+        case "tambahsoal":
         case "pbk":
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
