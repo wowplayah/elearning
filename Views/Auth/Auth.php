@@ -11,7 +11,7 @@
     <form class="form-signin">
         <div class="text-center mb-4">
          <img src="Content/PackageBakcEnd/Bootstrap4/img-logo/mms.png" width="100%">
-         <small class="text-white">MANAGE YOUR HAPPY SHOPING MALL</small>
+         <small class="text-white">MANAGE YOUR HAPPY SHOPING MALL 2</small>
         </div>
         
         <div class="form-label-group">

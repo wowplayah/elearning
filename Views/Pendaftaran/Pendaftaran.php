@@ -2,7 +2,7 @@
     <div class="row" style="margin: 100px 0;">
         <div class="col-md-12">
             <div class="card border-primary mb-3">
-                <div class="card-header">Pendaftaran</div>
+                <div class="card-header">Pendaftaran &nbsp;</div>
                 <div class="card-body">
                     <div class="form-group">
                         <label>No Induk</label>
