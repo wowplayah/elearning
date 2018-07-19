@@ -10,20 +10,20 @@ error_reporting(0);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Training</title>
     <!--Css Family-->
-    <link href="Content/PackageBakcEnd/Bootstrap4/bootstrap.css" rel="stylesheet" />
-    <link href="Content/PackageBakcEnd/Bootstrap4/Site.css" rel="stylesheet" />
+    <link href="Content/PackageFrontEnd/Bootstrap4/bootstrap.css" rel="stylesheet" />
+    <link href="Content/PackageFrontEnd/Bootstrap4/Site.css" rel="stylesheet" />
     <!--Js Family-->
-    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
-    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
-    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
-    <script src="Content/PackageBakcEnd/Bootstrap4/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
+    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
+    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
+    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
+    <script src="Content/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
 </head>
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-md navbar-dark  fixed-top bg-mms ">
         <a href="#" class="navbar-brand"></a>
         <a href="./" class="navbar-brand">
-            <!--<img src="Content/PackageBakcEnd/Bootstrap4/img-logo/mms.png" width="250" />-->
+            <!--<img src="Content/PackageFrontEnd/Bootstrap4/img-logo/mms.png" width="250" />-->
             Smart Training
         </a>
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
@@ -44,6 +44,6 @@ error_reporting(0);
     <?php include 'App_Start/RootFrontEnd.php'; ?>
     
 
-    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/offcanvas.js"></script>
+    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/offcanvas.js"></script>
 </body>
 </html>

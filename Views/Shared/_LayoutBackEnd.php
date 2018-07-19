@@ -16,7 +16,7 @@ error_reporting(0);
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
-    <script src="Content/PackageBakcEnd/Bootstrap4/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
+    <script src="Content/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
 </head>
 <body class="bg-light">
 
