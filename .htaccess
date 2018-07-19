@@ -16,3 +16,5 @@ RewriteRule ^pbk/? ?p=pbk
 RewriteRule ^pendaftaran/? ?p=pendaftaran
 
 
+
+RewriteRule ^tambahsoal/? ?p=tambahsoal

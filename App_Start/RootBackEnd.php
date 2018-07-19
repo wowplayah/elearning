@@ -31,6 +31,11 @@ switch($_GET['p'])
                                                 include 'Views/Pbk/Pbk.php';
                                                 break;
                                                 break;
+    case "tambahsoal"                           :if(@!file_exists('Views/ManagementSoal/TambahSoal/TambahSoal.php'))
+                                                die('File tidak ada di directory');
+                                                include 'Views/ManagementSoal/TambahSoal/TambahSoal.php';
+                                                break;
+                                                break;
 
                                                         
     default                                 : echo "<script>document.location='home'</script>";
