@@ -1,6 +1,6 @@
 <div class="container-fluid body-content">
     
-     <h4>Pelatihan Berbasis Komputer</h4>
+     <h4>Pelatihan Berbasis Kompetensi</h4>
     <br>
 
     <table class="table table-bordered table-hover table-striped">

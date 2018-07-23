@@ -14,7 +14,11 @@ RewriteRule ^pbk/? ?p=pbk
 
 
 RewriteRule ^pendaftaran/? ?p=pendaftaran
+RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
+
+RewriteRule ^profilpeserta/? ?p=profilpeserta
+RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
 
 
 
