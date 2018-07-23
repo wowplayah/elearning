@@ -62,7 +62,7 @@
                             <option>Arab Saudi</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <a href="testpendaftaran" class="btn btn-primary">Daftar</a>
                 </div>
             </div>
         </div>
