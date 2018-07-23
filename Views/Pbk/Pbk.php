@@ -1,6 +1,6 @@
 <div class="container-fluid body-content">
     
-     <h4>Pelatihan Berbasis Komputer</h4>
+     <h4>Pelatihan Berbasis Kompetensi</h4>
     <br>
 
     <table class="table table-bordered table-hover table-striped">
@@ -88,12 +88,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">TAMBAH PBK</h5>
+        <h5 class="modal-title" id="exampleModalLabel">TAMBAH MATA LATIHAN</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
+        <h4>Pendidikan Bahasa Inggris untu Public Area Attendant</h4>
         <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action">
             Membekali diri Tentang Kondisi Kerja dan Risiko Kerja
