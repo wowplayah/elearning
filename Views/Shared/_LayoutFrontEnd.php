@@ -32,7 +32,7 @@ error_reporting(0);
         <div class="navbar-collapse offcanvas-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-edit"></i> Pendaftaran</a>
+                    <a class="nav-link" href="pendaftaran"><i class="fa fa-edit"></i> Pendaftaran</a>
                 </li>
                 <li class="nav-item">
             </ul>

@@ -14,6 +14,7 @@ if(@!$_GET['p']){
             break;
         //FrontEnd Layout
         case "pendaftaran":
+        case "testpendaftaran":
             if(@!file_exists('Views/Shared/_LayoutFrontEnd.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutFrontEnd.php';
@@ -25,13 +26,21 @@ if(@!$_GET['p']){
         case "elementkompetensi":
         case "kriteriaunitkerja":
         case "indikatorunitkerja":
+        case "tambahsoal":
         case "pbk":
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutBackEnd.php';
             break;
             break;
-
+        //peserta Layout
+        case "profilpeserta":
+        case "kurikulumpeserta":
+            if(@!file_exists('Views/Shared/_LayoutPeserta.php'))
+            die('File tidak ada di directory');
+            include 'Views/Shared/_LayoutPeserta.php';
+            break;
+            break;
         
         default: echo '<script>document.location="home"</script>';
     }
