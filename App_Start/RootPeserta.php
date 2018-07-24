@@ -11,6 +11,11 @@ switch($_GET['p'])
                                             include 'Views/KurikulumPeserta/KurikulumPeserta.php';
                                             break;
                                             break;
+    case "modulbelajar"                  :if(@!file_exists('Views/ModulBelajar/ModulBelajar.php'))
+                                            die('File tidak ada di directory');
+                                            include 'Views/ModulBelajar/ModulBelajar.php';
+                                            break;
+                                            break;
                                                         
                                                         
     default                                 : echo "<script>document.location='home'</script>";
