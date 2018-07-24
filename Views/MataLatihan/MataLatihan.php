@@ -1,26 +1,13 @@
 <div class="container-fluid body-content">
     
-    <div class="row" style="margin-bottom: 20px;">
-        <div class="col-sm-12">
-            <center>
-                <span class="badge badge-pill badge-dark" style="background: #1BBC9B;padding: 10px;font-size:14px;">
-                    <i class="fas fa-book"></i> 
-                    Unit Kompetensi (Mata Latihan)
-                </span>
-            </center>
-        </div>
-    </div>
-
-    
-    <div class="row" style="margin-bottom: 20px;">
-        <div class="col-sm-12">
-            <center>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
-                    <i class="fas fa-plus"></i>  TAMBAH BARU
-                </button>
-            </center>
-        </div>
-    </div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Mata Latihan</li>
+        </ol>
+    </nav>
+    <h4>Unit Kompetensi (Mata Latihan)</h4>
+    <br>
     <table class="table table-bordered table-hover table-striped">
         <thead style="background: #22313F;color:#fff;">
             <tr>
@@ -42,6 +29,17 @@
             </tr>
         </tbody>
     </table>
+
+    
+    <div class="row" style="margin:20px;position:absolute;z-index:9999;bottom:0;right:0;">
+        <div class="col-sm-12">
+            <center>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+                    <i class="fas fa-plus"></i>  TAMBAH BARU
+                </button>
+            </center>
+        </div>
+    </div>
 
 </div>
 

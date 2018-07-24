@@ -16,7 +16,7 @@ error_reporting(0);
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
-    <script src="Content/PackageBakcEnd/Bootstrap4/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
+    <script src="Content/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
 </head>
 <body class="bg-light">
 
@@ -54,6 +54,7 @@ error_reporting(0);
         <nav class="nav nav-underline">
             <a class="nav-link" href="matalatihan"><i class="fa fa-book"></i> MATA LATIHAN</a>
             <a class="nav-link" href="pbk"><i class="fas fa-handshake"></i> PBK</a>
+            <a class="nav-link" href="daftarsoal"><i class="fas fa-handshake"></i> SOAL</a>
         </nav>
     </div>
 

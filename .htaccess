@@ -17,4 +17,6 @@ RewriteRule ^pendaftaran/? ?p=pendaftaran
 
 
 
+
 RewriteRule ^tambahsoal/? ?p=tambahsoal
+RewriteRule ^daftarsoal/? ?p=daftarsoal
