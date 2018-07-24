@@ -54,6 +54,7 @@ error_reporting(0);
         <nav class="nav nav-underline">
             <a class="nav-link" href="matalatihan"><i class="fa fa-book"></i> MATA LATIHAN</a>
             <a class="nav-link" href="pbk"><i class="fas fa-handshake"></i> PBK</a>
+            <a class="nav-link" href="daftarsoal"><i class="fas fa-handshake"></i> SOAL</a>
         </nav>
     </div>
 
