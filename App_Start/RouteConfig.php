@@ -27,7 +27,10 @@ if(@!$_GET['p']){
         case "kriteriaunitkerja":
         case "indikatorunitkerja":
         case "tambahsoal":
+        case "daftarsoal":
         case "pbk":
+        case "kurikulum":
+        case "administrasi" :
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutBackEnd.php';
@@ -36,6 +39,7 @@ if(@!$_GET['p']){
         //peserta Layout
         case "profilpeserta":
         case "kurikulumpeserta":
+        case "modulbelajar":
             if(@!file_exists('Views/Shared/_LayoutPeserta.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPeserta.php';

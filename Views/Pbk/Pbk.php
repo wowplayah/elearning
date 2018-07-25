@@ -95,27 +95,27 @@
       </div>
       <div class="modal-body">
         <h4>Pendidikan Bahasa Inggris untu Public Area Attendant</h4>
+       <input type="text" class="form-control" placeholder="Cari Kurikulum">
+        <br>
+        <br>
         <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action">
-            Membekali diri Tentang Kondisi Kerja dan Risiko Kerja
+            A1234
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            B1234
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            C1234
             <span class="badge badge-pill badge-dark" style="background: #1BBC9B;padding: 10px;">
                 <i class="fas fa-check"></i> 
             </span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
-            Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja
+           D1234
         </a>
         <a href="#" class="list-group-item list-group-item-action">
-            Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja
-            <span class="badge badge-pill badge-dark" style="background: #1BBC9B;padding: 10px;">
-                <i class="fas fa-check"></i> 
-            </span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-            Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-            Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja
+            EA234
         </a>
         </div>
 
