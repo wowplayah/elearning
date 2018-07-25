@@ -50,7 +50,7 @@
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">28</span><br><span>&nbsp;</span></button>
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">29</span><br><span>&nbsp;</span></button>
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">30</span><br><span>&nbsp;</span></button>
-            <button type="button" class="btn btn-info">Selesai</button>
+            <button type="button" class="btn btn-info" onClick="document.location='profilpeserta'">Selesai</button>
         </div>
         </center>
     </div>

@@ -5,7 +5,7 @@
             <p>ID Kurikulum : 1234</p>
             <p>Pekerjaan : Public Area Attendant</p>
 
-            <small>Note *</small><br>
+            <span>Note *</span><br>
             <span class="text-success">Warna hijau sudah selesai</span>
         </div>
         <table class="table">
