@@ -46,10 +46,11 @@ switch($_GET['p'])
                                                 include 'Views/ManagementSoal/TambahSoal/TambahSoal.php';
                                                 break;
                                                 break;
-
-
-                                                
-
+    case "daftarsoal"                           :if(@!file_exists('Views/ManagementSoal/DaftarSoal/DaftarSoal.php'))
+                                                die('File tidak ada di directory');
+                                                include 'Views/ManagementSoal/DaftarSoal/DaftarSoal.php';
+                                                break;
+                                                break;
                                                         
     default                                 : echo "<script>document.location='home'</script>";
 }

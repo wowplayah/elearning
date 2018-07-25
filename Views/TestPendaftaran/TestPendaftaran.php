@@ -1,5 +1,8 @@
 <div class="container-fluid body-content" style="margin-top:80px;">
     <div class="card">
+        <div class="card-header row">
+            <strong>Soal Penerimaan Peserta Pelatihan</strong>
+        </div>
         <div class="card-body">
             <div class="soal">
                 <p><b>11.</b>&nbsp;Bagian pada kendaraan bermotor yang digunakan sebagai pembuangan gas disebut?</p>

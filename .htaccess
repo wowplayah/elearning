@@ -35,3 +35,4 @@ RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
 
 RewriteRule ^tambahsoal/? ?p=tambahsoal
+RewriteRule ^daftarsoal/? ?p=daftarsoal
