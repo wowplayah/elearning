@@ -1,41 +1,4 @@
 <div class="container-fluid body-content">
-<<<<<<< HEAD
-    
-    <div class="row" style="margin-bottom: 20px;">
-        <div class="col-sm-12">
-            <table class="table table-bordered table-hover table-striped">
-                <thead style="background: #22313F;color:#fff;">
-                    <tr>
-                    <th scope="col">KODE SOAL</th>
-                    <th scope="col">KODE UK</th>
-                    <th scope="col">NAMA MATA LATIHAN</th>
-                    </tr>
-                </thead>
-                <tbody style="cursor: pointer;">
-                    <tr data-toggle="collapse" data-target="#accordion" class="clickable">
-                        <td>1</td>
-                        <td>T.9007.001.002.02</td>
-                        <td>Membekali diri Tentang Kondisi Kerja dan Risiko Kerja</td>
-                    </tr>
-                    <tr  style="margin:-20px 0 -20px 0;">
-                        <td colspan="3">
-                            <div id="accordion" class="collapse">Hidden by default</div>
-                        </td>
-                    </tr>
-                    <tr>
-                    <td>2</td>
-                    <td>T.9007.001.003.02</td>
-                    <td>Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja</td>
-                    </tr>
-                    <tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-<button class="btn btn-primary" style="margin:20px;position:absolute;z-index:9999;bottom:0;right:0;">TAMBAH BARU</button>
-=======
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./">Home</a></li>
@@ -44,140 +7,395 @@
         </ol>
     </nav>
 
-    <div class="card " style="margin:0 250px 0 250px;">
-        <div class="card-body">
-            <h4>Kode Soal (Mata Latihan)</h4>
-            <br>
-            <h4><span class="badge badge-danger" >Soal</span></h4>
-            <i><label>Jawablah pertanyaan dibawah ini dengan benar.</label></i>
-            
-            <div> 
-                <label>Mobil-Roda = Rumah-...</label>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Pondasi
-                    </label>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="input-group input-group-md">
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md" value="Mobil-Roda = Rumah-...">
+                    </div>
+                    <hr>
+                    <div class="input-group input-group-md mb-1" style="width:100%;">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input"  name="exampleRadios" checked>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="Pondasi">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-danger btn-sm float-right">Hapus</button>
+                        </div>
+                    </div>
+                    <div class="input-group input-group-md mb-1" style="width:100%;">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input"  name="exampleRadios">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="Tanah">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-danger btn-sm float-right">Hapus</button>
+                        </div>
+                    </div>
+                    <div class="input-group input-group-md mb-1" style="width:100%;">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input"  name="exampleRadios">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="Jendela">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-danger btn-sm float-right">Hapus</button>
+                        </div>
+                    </div>
+                    <div class="input-group input-group-md mb-1" style="width:100%;">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input"  name="exampleRadios">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" value="Atap">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-danger btn-sm float-right">Hapus</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <button type="button" class="btn btn-outline-primary btn-sm">Tambah Jawaban</button>
+                        </div>
+                        <div class="col-md-5">
+                        <div class="float-right">
+                            <button type="button" class="btn btn-outline-success btn-sm" style="margin:0px 10px 0 30px;">Simpan Soal</button> 
+                            <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Tanah
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Jendela
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Atap
-                    </label>
-                </div>
-                <hr>
             </div>
+        </div>
 
-            <div>
-                <label>Haus-Minum = Terang-...</label>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Gelap
-                    </label>
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Putih
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Benderang
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Lampu
-                    </label>
-                </div>
-                <hr>
             </div>
+        </div>
 
-            <div>
-                <label>Darat-Mobil = Udara-...</label>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Angin
-                    </label>
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Terbang
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Perahu
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Pesawat Terbang
-                    </label>
-                </div>
-                <hr>
             </div>
+        </div>
 
-            <div>
-                <label>Kayu-Pohon = Emas-...</label>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Tambang
-                    </label>
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Perhiasan
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Mahal
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Logam
-                    </label>
-                </div>
-                <hr>
             </div>
+        </div>
 
-            <div>
-                <label>Televisi-Gambar = Radio-...</label>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Listrik
-                    </label>
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Penyiar
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Suara
-                    </label>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="optradio">Merdu
-                    </label>
-                </div>
-                <hr>
             </div>
+        </div>
 
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-sm-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mobil-Roda = Rumah-...</h5>
+                    <hr>
+                    <div class="form-check">
+                        <label class="form-check-label" style="padding:0 5px;background:green;color:#fff">
+                            A. Pondasi
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            B. Tanah
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            C. Jendela
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            D. Atap
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-outline-dark btn-sm" style="margin:0px 10px 0 30px;">Edit Soal</button> 
+                                <button type="button" class="btn btn-outline-danger btn-sm">Hapus Soal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row" style="margin:20px;position:fixed;z-index:9999;bottom:0;right:0;">
+        <div class="col-sm-12">
+            <center>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <i class="fas fa-plus"></i>  TAMBAH BARU
+                </button>
+            </center>
         </div>
     </div>
 
 </div>
->>>>>>> master
