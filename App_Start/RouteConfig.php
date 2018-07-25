@@ -27,6 +27,7 @@ if(@!$_GET['p']){
         case "kriteriaunitkerja":
         case "indikatorunitkerja":
         case "tambahsoal":
+        case "daftarsoal":
         case "pbk":
         case "kurikulum":
         case "administrasi" :
