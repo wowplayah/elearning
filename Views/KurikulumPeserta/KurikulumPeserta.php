@@ -18,6 +18,9 @@
                      <th>:</th>
                      <th>Public Area Attendant</th>
                   </tr>
+                  <tr>
+                     <th><button type="button" class="btn btn-secondary">Buka Soal</button></th>
+                  </tr>
                </table>
             </div>
          </div>

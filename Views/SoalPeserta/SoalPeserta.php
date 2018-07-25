@@ -1,6 +1,32 @@
-<div class="container-fluid body-content" style="margin-top:80px;">
+
+<div class="container-fluid body-content" style="margin-top:20px;">
     <div class="card">
         <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">UK</li>
+                        <li class="breadcrumb-item">EK</li>
+                        <li class="breadcrumb-item">KUK</li>
+                        <li class="breadcrumb-item">IUK</li>
+                    </ol>
+                    </nav>
+                </div>
+                <div class="col-md-3">
+                    <center>
+                    <p>Time : 1:30:34</p>
+                    </center>
+                </div>
+                <div class="col-md-3">
+                    <center>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-secondary">Submit</button>
+                    </div>
+                    </center>
+                </div>
+            </div>
             <div class="soal">
                 <p><b>11.</b>&nbsp;Bagian pada kendaraan bermotor yang digunakan sebagai pembuangan gas disebut?</p>
             </div>
