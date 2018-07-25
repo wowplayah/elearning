@@ -4,12 +4,22 @@ RewriteBase /SmartTraining/
 
 RewriteRule ^auth/? ?p=auth
 
+
+RewriteRule ^profilpeserta/? ?p=profilpeserta
+RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
+RewriteRule ^modulbelajar/? ?p=modulbelajar
+
+
 RewriteRule ^home/? ?p=home
 RewriteRule ^matalatihan/? ?p=matalatihan
 RewriteRule ^elementkompetensi/? ?p=elementkompetensi
 RewriteRule ^kriteriaunitkerja/? ?p=kriteriaunitkerja
 RewriteRule ^indikatorunitkerja/? ?p=indikatorunitkerja
 RewriteRule ^pbk/? ?p=pbk
+RewriteRule ^kurikulum/? ?p=kurikulum
+RewriteRule ^administrasi/? ?p=administrasi
+
+
 
 
 
@@ -17,8 +27,6 @@ RewriteRule ^pendaftaran/? ?p=pendaftaran
 RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
 
-RewriteRule ^profilpeserta/? ?p=profilpeserta
-RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
 
 
 

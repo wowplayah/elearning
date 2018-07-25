@@ -32,7 +32,7 @@ error_reporting(0);
         <div class="navbar-collapse offcanvas-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home"></i> Beranda</a>
+                    <a class="nav-link" href="./"><i class="fa fa-home"></i> Beranda</a>
                 </li>
                 <li class="nav-item">
             </ul>
@@ -52,8 +52,11 @@ error_reporting(0);
 
     <div class="nav-scroller bg-white box-shadow">
         <nav class="nav nav-underline">
+        
+            <a class="nav-link" href="administrasi"><i class="fa fa-book"></i> ADMINISTRASI</a>
             <a class="nav-link" href="matalatihan"><i class="fa fa-book"></i> MATA LATIHAN</a>
             <a class="nav-link" href="pbk"><i class="fas fa-handshake"></i> PBK</a>
+            <a class="nav-link" href="kurikulum"><i class="fas fa-handshake"></i> Kurikulum</a>
         </nav>
     </div>
 
