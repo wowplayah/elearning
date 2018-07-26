@@ -20,6 +20,9 @@ RewriteRule ^indikatorunitkerja/? ?p=indikatorunitkerja
 RewriteRule ^pbk/? ?p=pbk
 RewriteRule ^kurikulum/? ?p=kurikulum
 RewriteRule ^administrasi/? ?p=administrasi
+RewriteRule ^kelolauser/? ?p=kelolauser
+
+
 
 
 
