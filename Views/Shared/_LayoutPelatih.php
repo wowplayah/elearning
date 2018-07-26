@@ -52,7 +52,7 @@ error_reporting(0);
 
     <div class="nav-scroller bg-white box-shadow">
         <nav class="nav nav-underline">
-            <a class="nav-link" href="bukakelas"><i class="fa fa-book"></i> KEPELATIHAN</a>
+            <a class="nav-link" href="kepelatihan"><i class="fa fa-book"></i> KEPELATIHAN</a>
             <a class="nav-link" href="bukakelas"><i class="fa fa-book"></i> BUKA KELAS</a>
         </nav>
     </div>

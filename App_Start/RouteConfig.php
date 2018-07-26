@@ -31,6 +31,7 @@ if(@!$_GET['p']){
         case "pbk":
         case "kurikulum":
         case "administrasi" :
+        case "kelolauser" :
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutBackEnd.php';

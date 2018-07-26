@@ -41,7 +41,7 @@ error_reporting(0);
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Sandika G Prakasa</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="dropdown-item" href="#">Change Password</a>
+                            <a class="dropdown-item" href="kelolauser">Kelola User</a>
                             <a class="dropdown-item" href="#">Log Out</a>
                         </div>
                     </li>
