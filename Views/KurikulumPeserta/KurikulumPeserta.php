@@ -19,7 +19,7 @@
                      <th>Public Area Attendant</th>
                   </tr>
                   <tr>
-                     <th><button type="button" class="btn btn-secondary">Buka Soal</button></th>
+                     <th><button type="button" class="btn btn-secondary" onClick="document.location='soalpeserta'">Buka Soal</button></th>
                   </tr>
                </table>
             </div>
@@ -37,14 +37,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="bg-success text-white">
+                        <tr class="bg-success ">
                             <th>1</th>
                             <td>T.970000.001.02</td>
                             <td>Membekali diri Tentang Kondisi Kerja dan Risiko Kerja</td>
                             <td>
-                                <a href=""><i class="text-white fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class="text-white fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="text-white fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class="text-white fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -52,18 +52,18 @@
                             <td>T.970000.002.02</td>
                             <td>Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         <tr>
                             <th>3</th>
                             <td>T.970000.003.02</td>
                             <td>Membekali diri Tentang Remitensi</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -71,9 +71,9 @@
                             <td>T.970000.004.02</td>
                             <td>Membekali diri Tentang Dokumen dan perlindungan</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -81,9 +81,9 @@
                             <td>T.970000.005.02</td>
                             <td>Melaksanakan Kerjasama di Lingkungan Kerja</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -91,9 +91,9 @@
                             <td>T.970000.006.02</td>
                             <td>Mengembangkan Kematangan Emosi dan Motivasi Kerja</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -101,9 +101,9 @@
                             <td>BHS.IK01.001.01</td>
                             <td>Melakukan Percakapan Awal Dengan Tamu</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -111,9 +111,9 @@
                             <td>BHS.IK01.002.01</td>
                             <td>Menerima Pengarahan Lisan Dan Tertulis</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -121,9 +121,9 @@
                             <td>BHS.IK01.003.01</td>
                             <td>Memberikan Petunjuk Tentang Lokasi</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -131,9 +131,9 @@
                             <td>BHS.IK02.001.01</td>
                             <td>Menjelaskan Fasilitas Dan Pelayanan Hotel</td>
                             <td>
-                                <a href=""><i class="fa fa-file-alt"></i></a>
+                                <a href="bukasoal"><i class=" fa fa-file-alt"></i></a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i></a>
+                                <a href="modulbelajar"><i class=" fa fa-book"></i></a>
                             </td>
                         </tr>
                     </tbody>
