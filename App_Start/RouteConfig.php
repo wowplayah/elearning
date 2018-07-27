@@ -43,6 +43,7 @@ if(@!$_GET['p']){
         case "kurikulumpeserta":
         case "modulbelajar":
         case "soalpeserta":
+        case "assesmentpeserta" :
             if(@!file_exists('Views/Shared/_LayoutPeserta.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPeserta.php';
@@ -51,6 +52,7 @@ if(@!$_GET['p']){
         //pelatih Layout
         case "bukakelas":
         case "kepelatihan":
+        case "penilaian":
             if(@!file_exists('Views/Shared/_LayoutPelatih.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPelatih.php';
