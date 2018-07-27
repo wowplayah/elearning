@@ -27,21 +27,35 @@ if(@!$_GET['p']){
         case "kriteriaunitkerja":
         case "indikatorunitkerja":
         case "tambahsoal":
+        case "daftarsoal":
         case "pbk":
         case "kurikulum":
         case "administrasi" :
+        case "kelolauser" :
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutBackEnd.php';
             break;
             break;
+            
         //peserta Layout
         case "profilpeserta":
         case "kurikulumpeserta":
         case "modulbelajar":
+        case "soalpeserta":
+        case "assesmentpeserta" :
             if(@!file_exists('Views/Shared/_LayoutPeserta.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPeserta.php';
+            break;
+            break;
+        //pelatih Layout
+        case "bukakelas":
+        case "kepelatihan":
+        case "penilaian":
+            if(@!file_exists('Views/Shared/_LayoutPelatih.php'))
+            die('File tidak ada di directory');
+            include 'Views/Shared/_LayoutPelatih.php';
             break;
             break;
         

@@ -8,6 +8,9 @@ RewriteRule ^auth/? ?p=auth
 RewriteRule ^profilpeserta/? ?p=profilpeserta
 RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
 RewriteRule ^modulbelajar/? ?p=modulbelajar
+RewriteRule ^soalpeserta/? ?p=soalpeserta
+RewriteRule ^assesmentpeserta/? ?p=assesmentpeserta
+
 
 
 RewriteRule ^home/? ?p=home
@@ -18,8 +21,15 @@ RewriteRule ^indikatorunitkerja/? ?p=indikatorunitkerja
 RewriteRule ^pbk/? ?p=pbk
 RewriteRule ^kurikulum/? ?p=kurikulum
 RewriteRule ^administrasi/? ?p=administrasi
+RewriteRule ^kelolauser/? ?p=kelolauser
 
 
+
+
+
+RewriteRule ^bukakelas/? ?p=bukakelas
+RewriteRule ^kepelatihan/? ?p=kepelatihan
+RewriteRule ^penilaian/? ?p=penilaian
 
 
 
@@ -31,3 +41,4 @@ RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
 
 RewriteRule ^tambahsoal/? ?p=tambahsoal
+RewriteRule ^daftarsoal/? ?p=daftarsoal

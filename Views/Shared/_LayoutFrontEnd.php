@@ -10,14 +10,13 @@ error_reporting(0);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Training</title>
     <!--Css Family-->
-    <link href="Content/PackageFrontEnd/Bootstrap4/bootstrap.css" rel="stylesheet" />
-    <link href="Content/PackageFrontEnd/Bootstrap4/Site.css" rel="stylesheet" />
+    <link href="Content/PackageBakcEnd/Bootstrap4/bootstrap.css" rel="stylesheet" />
+    <link href="Content/PackageBakcEnd/Bootstrap4/Site.css" rel="stylesheet" />
     <!--Js Family-->
-    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
-    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
-    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
+    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.3.1.js"></script>
+    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/bootstrap.js"></script>
+    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/jquery-3.2.1.slim.min.js"></script>
     <script src="Content/fontawesome-free-5.0.6/on-server/js/fontawesome-all.js"></script>
-</head>
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-md navbar-dark  fixed-top bg-mms ">
@@ -44,6 +43,6 @@ error_reporting(0);
     <?php include 'App_Start/RootFrontEnd.php'; ?>
     
 
-    <script src="Content/PackageFrontEnd/Javascript/Bootstrap4Required/offcanvas.js"></script>
+    <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/offcanvas.js"></script>
 </body>
 </html>

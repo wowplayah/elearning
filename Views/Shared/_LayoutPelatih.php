@@ -32,14 +32,14 @@ error_reporting(0);
         <div class="navbar-collapse offcanvas-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home"></i> Beranda</a>
+                    <a class="nav-link" href="./"><i class="fa fa-home"></i> Beranda</a>
                 </li>
                 <li class="nav-item">
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Budi Raharjo</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Jojo Rahmad</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown03">
                             <a class="dropdown-item" href="#">Change Password</a>
                             <a class="dropdown-item" href="#">Log Out</a>
@@ -52,14 +52,13 @@ error_reporting(0);
 
     <div class="nav-scroller bg-white box-shadow">
         <nav class="nav nav-underline">
-            <a class="nav-link" href="profilpeserta"><i class="fa fa-book"></i> Profil</a>
-             <a class="nav-link" href="kurikulumpeserta"><i class="fa fa-book"></i> Kurikulum</a>
-             <a class="nav-link" href="assesmentpeserta"><i class="fa fa-book"></i> Assesment</a>
+            <a class="nav-link" href="kepelatihan"><i class="fa fa-book"></i> KEPELATIHAN</a>
+            <a class="nav-link" href="bukakelas"><i class="fa fa-book"></i> BUKA KELAS</a>
         </nav>
     </div>
 
 
-    <?php include 'App_Start/RootPeserta.php'; ?>
+    <?php include 'App_Start/RootPelatih.php'; ?>
     
 
     <script src="Content/PackageBakcEnd/Javascript/Bootstrap4Required/offcanvas.js"></script>
