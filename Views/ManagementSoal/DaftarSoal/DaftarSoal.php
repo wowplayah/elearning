@@ -6,7 +6,7 @@
             <li class="breadcrumb-item active" aria-current="page">Soal</li>
         </ol>
     </nav>
-    <h4>Unit Kompetensi (Mata Latihan)</h4>
+    <h4>Soal Management</h4>
     <br>
     <table class="table table-bordered table-hover table-striped">
         <thead style="background: #22313F;color:#fff;">
