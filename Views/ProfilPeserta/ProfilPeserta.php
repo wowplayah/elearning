@@ -3,7 +3,7 @@
         <div class="card-body">
               <div class="row m-y-2">
         <div class="col-lg-2 pull-lg-6 text-xs-center">
-            <img src="Content/default ava.png" class="m-x-auto img-fluid img-circle" alt="avatar">
+            <img src="https://cdn.iconscout.com/public/images/icon/free/png-512/avatar-user-business-man-399587fe24739d5a-512x512.png" class="m-x-auto img-fluid img-circle" alt="avatar">
             <!-- <h6 class="m-t-2">Upload Foto</h6>
             <label class="custom-file">
                 <input type="file" id="file" class="custom-file-input">
