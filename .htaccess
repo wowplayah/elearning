@@ -8,7 +8,9 @@ RewriteRule ^auth/? ?p=auth
 RewriteRule ^profilpeserta/? ?p=profilpeserta
 RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
 RewriteRule ^modulbelajar/? ?p=modulbelajar
+RewriteRule ^soalpeserta/? ?p=soalpeserta
 RewriteRule ^assesmentpeserta/? ?p=assesmentpeserta
+
 
 
 RewriteRule ^home/? ?p=home
@@ -22,6 +24,8 @@ RewriteRule ^administrasi/? ?p=administrasi
 
 
 
+RewriteRule ^bukakelas/? ?p=bukakelas
+RewriteRule ^kepelatihan/? ?p=kepelatihan
 
 
 RewriteRule ^pendaftaran/? ?p=pendaftaran
