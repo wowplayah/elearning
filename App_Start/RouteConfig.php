@@ -40,6 +40,7 @@ if(@!$_GET['p']){
         case "profilpeserta":
         case "kurikulumpeserta":
         case "modulbelajar":
+        case "assesmentpeserta":
             if(@!file_exists('Views/Shared/_LayoutPeserta.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPeserta.php';

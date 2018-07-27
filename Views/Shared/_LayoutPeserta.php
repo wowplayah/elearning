@@ -53,7 +53,8 @@ error_reporting(0);
     <div class="nav-scroller bg-white box-shadow">
         <nav class="nav nav-underline">
             <a class="nav-link" href="profilpeserta"><i class="fa fa-book"></i> Profil</a>
-             <a class="nav-link" href="kurikulumpeserta"><i class="fa fa-book"></i> Kurikulum</a>
+            <a class="nav-link" href="kurikulumpeserta"><i class="fa fa-book"></i> Kurikulum</a>
+            <a class="nav-link" href="assesmentpeserta"><i class="fa fa-file"></i> Assesment</a>
         </nav>
     </div>
 

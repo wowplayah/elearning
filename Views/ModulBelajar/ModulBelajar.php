@@ -1,11 +1,9 @@
-
-
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="card border-primary mb-3">
                 <div class="card-header">
-                <h3>Modul - Pendidikan Bahasa Inggris untuk Public Area Attendant</h3>
+                <h3>Modul - Membekali diri Tentang Kondisi Kerja dan Risiko Kerja</h3>
                 </div>
             </div>
         </div>
