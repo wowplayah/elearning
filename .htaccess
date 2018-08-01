@@ -1,8 +1,10 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteBase /SmartTraining/
+RewriteBase /smarttraining/
 
 RewriteRule ^auth/? ?p=auth
+
+
 
 
 RewriteRule ^profilpeserta/? ?p=profilpeserta
@@ -22,6 +24,10 @@ RewriteRule ^pbk/? ?p=pbk
 RewriteRule ^kurikulum/? ?p=kurikulum
 RewriteRule ^administrasi/? ?p=administrasi
 RewriteRule ^kelolauser/? ?p=kelolauser
+RewriteRule ^tambahsoal/? ?p=tambahsoal
+RewriteRule ^daftarsoaldetail/? ?p=daftarsoaldetail
+RewriteRule ^daftarsoal/? ?p=daftarsoal
+
 
 
 
@@ -38,7 +44,3 @@ RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
 
 
-
-
-RewriteRule ^tambahsoal/? ?p=tambahsoal
-RewriteRule ^daftarsoal/? ?p=daftarsoal
