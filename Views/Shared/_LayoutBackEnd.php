@@ -52,8 +52,6 @@ error_reporting(0);
 
     <div class="nav-scroller bg-white box-shadow">
         <nav class="nav nav-underline">
-        
-            <a class="nav-link" href="administrasi"><i class="fa fa-book"></i> ADMINISTRASI</a>
             <a class="nav-link" href="matalatihan"><i class="fa fa-book"></i> MATA LATIHAN</a>
             <a class="nav-link" href="kurikulum"><i class="fa fa-book"></i> KURIKULUM</a>
             <a class="nav-link" href="pbk"><i class="fas fa-handshake"></i> PBK</a>
