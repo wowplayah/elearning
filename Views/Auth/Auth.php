@@ -10,8 +10,7 @@
     </style>
     <form class="form-signin">
         <div class="text-center mb-4">
-         <img src="Content/PackageBakcEnd/Bootstrap4/img-logo/mms.png" width="100%">
-         <small class="text-white">MANAGE YOUR HAPPY SHOPING MALL 2</small>
+         <h4 class="text-white">SMART TRAINING</h4>
         </div>
         
         <div class="form-label-group">
@@ -24,8 +23,8 @@
          <label for="inputPassword">Password</label>
         </div>
         
-        <button class="btn btn-lg btn-white btn-block" type="submit"><i class="fa fa-sign-in-alt"></i> SIGN IN</button>
-        <p class="mt-5 mb-3 text-white text-center">&copy; 2018 LISTSOFTMEDIA</p>
+        <button class="btn btn-lg btn-white btn-block" type="submit"><i class="fa fa-sign-in-alt"></i> Masuk</button>
+        <p class="mt-5 mb-3 text-white text-center">&copy; 2018 Lpk Global Alwakil</p>
     </form>
     <script>
         function changeColor(selector, colors, time) {
