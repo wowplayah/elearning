@@ -56,8 +56,15 @@
     <div class="card border-secondary mb-3">
         <div class="card-body row">
             <div class="col-md-12">
-                <p class="text-center"><b>Pendidikan Bahasa Inggris untu Public Area Attendant</b></p>
+                <!-- <p class="text-center"><b>Pendidikan Bahasa Inggris untu Public Area Attendant</b></p> -->
                 <table class="table table-bordered">
+                    <tr>
+                        <th colspan="2">Pendidikan Bahasa Inggris untu Public Area Attendant</th>
+                        <td class="text-center">
+                            <a href="" class="btn btn-success btn-sm">Buka Assessment</a>
+                            <a href="" class="btn btn-secondary btn-sm">Selesai</a>
+                        </td>
+                    </tr>
                     <tr>
                         <th >Pelatih</th>
                         <td ><b>Jojo Rahmad</b></td>
