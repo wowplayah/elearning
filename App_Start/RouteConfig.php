@@ -28,6 +28,7 @@ if(@!$_GET['p']){
         case "indikatorunitkerja":
         case "tambahsoal":
         case "daftarsoal":
+        case "daftarsoaldetail":
         case "pbk":
         case "kurikulum":
         case "administrasi" :
@@ -61,6 +62,5 @@ if(@!$_GET['p']){
         
         default: echo '<script>document.location="home"</script>';
     }
-
 }
 ?>

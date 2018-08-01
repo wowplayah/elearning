@@ -3,22 +3,32 @@
     <div class="card">
         <div class="card-body">
             <div class="row">
-                <div class="col-md-6">
-                    <nav aria-label="breadcrumb">
+                <div class="col-md-8">
+                    <table>
+                        <tr>
+                            <th>Unit Kompetensi</th>
+                            <td>: Membekali diri Tentang Kondisi Kerja dan Risiko Kerja</td>
+                            <th>Kode IUK</th>
+                            <td>: T.970000.001.02/1/1.2/T2</td>
+                        </tr>
+                        <tr>
+                            <th>Indikator Unit Kerja</th>
+                            <td colspan="3">: Dapat menyesuaikan kehidupan sehari-hari dengan pola kehidupan di lingkungan tempat kerja</td>
+                        </tr>
+                    </table>
+                    <!-- <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item">UK</li>
-                        <li class="breadcrumb-item">EK</li>
-                        <li class="breadcrumb-item">KUK</li>
-                        <li class="breadcrumb-item">IUK</li>
+                        <li class="breadcrumb-item">T.970000.001.02</li>
+                        <li class="breadcrumb-item">1</li>
+                        <li class="breadcrumb-item">1.2</li>
+                        <li class="breadcrumb-item">T2 - </li>
                     </ol>
-                    </nav>
+                    </nav> -->
                 </div>
-                <div class="col-md-3">
-                    <center>
-                    <p>Time : 1:30:34</p>
-                    </center>
+                <div class="col-md-2">
+                    <p class="text-center"><b>Waktu : 1:30:34</b></p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <center>
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <button type="button" class="btn btn-secondary">Save</button>
@@ -27,25 +37,26 @@
                     </center>
                 </div>
             </div>
+            <hr>
             <div class="soal">
-                <p><b>11.</b>&nbsp;Bagian pada kendaraan bermotor yang digunakan sebagai pembuangan gas disebut?</p>
+                <p><b>11.</b>&nbsp;Berikut ini cara menyambut pelanggan dengan baik, kecuali?</p>
             </div>
             <div class="pilihan">
                 <div class="custom-control custom-radio">
                     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Spakbor</label>
+                    <label class="custom-control-label" for="customRadio1">A. Senyum</label>
                 </div>
                 <div class="custom-control custom-radio">
                     <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio2">Spion</label>
+                    <label class="custom-control-label" for="customRadio2">B. Sapa</label>
                 </div>
                 <div class="custom-control custom-radio">
                     <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio3">Knalpot</label>
+                    <label class="custom-control-label" for="customRadio3">C. Salam</label>
                 </div>
                 <div class="custom-control custom-radio">
                     <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio4">Jok</label>
+                    <label class="custom-control-label" for="customRadio4">D. Diam</label>
                 </div>
             </div>
         </div>
@@ -56,7 +67,7 @@
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-info">Kembali</button>
             <button type="button" class="btn btn-info">...</button>
-            <button type="button" class="btn btn-primary"><span style="border-bottom:1px solid #fff">11</span><br><span>A</span></button>
+            <button type="button" class="btn btn-primary"><span style="border-bottom:1px solid #fff">11</span><br><span>D</span></button>
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">12</span><br><span>&nbsp;</span></button>
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">13</span><br><span>&nbsp;</span></button>
             <button type="button" class="btn btn-info"><span style="border-bottom:1px solid #fff">14</span><br><span>&nbsp;</span></button>
