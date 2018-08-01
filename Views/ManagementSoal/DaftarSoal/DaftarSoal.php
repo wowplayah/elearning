@@ -16,7 +16,7 @@
             <th scope="col">MATA LATIHAN</th>
             </tr>
         </thead>
-        <tbody style="cursor: pointer;" onclick="location.href='tambahsoal';">
+        <tbody style="cursor: pointer;" onclick="location.href='daftarsoaldetail';">
             <tr>
             <th>1</th>
             <td>T.9007.001.002.02</td>
