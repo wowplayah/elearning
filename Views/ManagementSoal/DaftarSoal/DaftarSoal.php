@@ -14,18 +14,21 @@
             <th scope="col">SEQ_ID</th>
             <th scope="col">KODE_UK</th>
             <th scope="col">MATA LATIHAN</th>
+            <th scope="col">JUMLAH SOAL</th>
             </tr>
         </thead>
-        <tbody style="cursor: pointer;" onclick="location.href='tambahsoal';">
+        <tbody style="cursor: pointer;" onclick="location.href='daftarsoaldetail';">
             <tr>
             <th>1</th>
             <td>T.9007.001.002.02</td>
             <td>Membekali diri Tentang Kondisi Kerja dan Risiko Kerja</td>
+            <td>1</td>
             </tr>
             <tr>
             <th>2</th>
             <td>T.9007.001.003.02</td>
             <td>Menerapkan Prosedur Keselamatan dan Kesehatan Kerja di Tempat Kerja</td>
+            <td>0</td>
             </tr>
         </tbody>
     </table>
