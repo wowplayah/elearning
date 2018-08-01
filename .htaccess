@@ -25,18 +25,15 @@ RewriteRule ^kelolauser/? ?p=kelolauser
 
 
 
-
-
 RewriteRule ^bukakelas/? ?p=bukakelas
 RewriteRule ^kepelatihan/? ?p=kepelatihan
+RewriteRule ^profilpelatih/? ?p=profilpelatih
 RewriteRule ^penilaian/? ?p=penilaian
 
 
 
 RewriteRule ^pendaftaran/? ?p=pendaftaran
 RewriteRule ^testpendaftaran/? ?p=testpendaftaran
-
-
 
 
 

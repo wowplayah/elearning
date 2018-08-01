@@ -17,6 +17,11 @@ switch($_GET['p'])
                                             include 'Views/Penilaian/Penilaian.php';
                                             break;
                                             break;
+     case "profilpelatih"                  :if(@!file_exists('Views/ProfilPelatih/ProfilPelatih.php'))
+                                            die('File tidak ada di directory');
+                                            include 'Views/ProfilPelatih/ProfilPelatih.php';
+                                            break;
+                                            break;
                                                         
     default                                 : echo "<script>document.location='home'</script>";
 }
