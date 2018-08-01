@@ -12,6 +12,11 @@ switch($_GET['p'])
                                             break;
                                             break;
                                                         
+    case "penilaian"                      :if(@!file_exists('Views/Penilaian/Penilaian.php'))
+                                            die('File tidak ada di directory');
+                                            include 'Views/Penilaian/Penilaian.php';
+                                            break;
+                                            break;
                                                         
     default                                 : echo "<script>document.location='home'</script>";
 }

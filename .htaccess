@@ -9,6 +9,7 @@ RewriteRule ^profilpeserta/? ?p=profilpeserta
 RewriteRule ^kurikulumpeserta/? ?p=kurikulumpeserta
 RewriteRule ^modulbelajar/? ?p=modulbelajar
 RewriteRule ^soalpeserta/? ?p=soalpeserta
+RewriteRule ^assesmentpeserta/? ?p=assesmentpeserta
 
 
 
@@ -28,6 +29,8 @@ RewriteRule ^kelolauser/? ?p=kelolauser
 
 RewriteRule ^bukakelas/? ?p=bukakelas
 RewriteRule ^kepelatihan/? ?p=kepelatihan
+RewriteRule ^penilaian/? ?p=penilaian
+
 
 
 RewriteRule ^pendaftaran/? ?p=pendaftaran
