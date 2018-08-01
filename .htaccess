@@ -25,6 +25,8 @@ RewriteRule ^kurikulum/? ?p=kurikulum
 RewriteRule ^administrasi/? ?p=administrasi
 RewriteRule ^kelolauser/? ?p=kelolauser
 RewriteRule ^tambahsoal/? ?p=tambahsoal
+RewriteRule ^daftarsoaliuk/? ?p=daftarsoaliuk
+RewriteRule ^daftarsoalkuk/? ?p=daftarsoalkuk
 RewriteRule ^daftarsoaldetail/? ?p=daftarsoaldetail
 RewriteRule ^daftarsoal/? ?p=daftarsoal
 
