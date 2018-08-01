@@ -18,9 +18,9 @@
                         <td>
                             <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                             &nbsp;
-                            <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                            <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                             &nbsp;
-                            <a href=""><i class="fa fa-file-alt"></i>&nbsp;Buka Kelas</a>
+                            <a href="bukakelas"><i class="fa fa-file-alt"></i>&nbsp;Buka Kelas</a>
                         </td>
                     </tr>
                     <tr>
@@ -29,9 +29,9 @@
                         <td>
                             <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                             &nbsp;
-                            <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                            <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                             &nbsp;
-                            <a href=""><i class="fa fa-file-alt"></i>&nbsp;Buka Kelas</a>
+                            <a href="bukakelas"><i class="fa fa-file-alt"></i>&nbsp;Buka Kelas</a>
                         </td>
                     </tr>
                     </tbody>
