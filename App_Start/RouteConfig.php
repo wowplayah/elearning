@@ -29,9 +29,10 @@ if(@!$_GET['p']){
         case "tambahsoal":
         case "daftarsoal":
         case "daftarsoaldetail":
+        case "daftarsoaliuk":
+        case "daftarsoalkuk":
         case "pbk":
         case "kurikulum":
-        case "administrasi" :
         case "kelolauser" :
             if(@!file_exists('Views/Shared/_LayoutBackEnd.php'))
             die('File tidak ada di directory');
@@ -54,11 +55,20 @@ if(@!$_GET['p']){
         case "bukakelas":
         case "kepelatihan":
         case "penilaian":
-            if(@!file_exists('Views/Shared/_LayoutPelatih.php'))
-            die('File tidak ada di directory');
-            include 'Views/Shared/_LayoutPelatih.php';
-            break;
-            break;
+        case "profilpelatih":
+        if(@!file_exists('Views/Shared/_LayoutPelatih.php'))
+        die('File tidak ada di directory');
+        include 'Views/Shared/_LayoutPelatih.php';
+        break;
+        break;
+        //TU Layout
+        case "administrasi":
+        case "profiltu":
+        if(@!file_exists('Views/Shared/_LayoutTU.php'))
+        die('File tidak ada di directory');
+        include 'Views/Shared/_LayoutTU.php';
+        break;
+        break;
         
         default: echo '<script>document.location="home"</script>';
     }
