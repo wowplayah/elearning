@@ -56,6 +56,16 @@ switch($_GET['p'])
                                                 include 'Views/ManagementSoal/DaftarSoalDetail/DaftarSoalDetail.php';
                                                 break;
                                                 break;
+    case "daftarsoaliuk"                        :if(@!file_exists('Views/ManagementSoal/DaftarSoalIUK/DaftarSoalIUK.php'))
+                                                die('File tidak ada di directory');
+                                                include 'Views/ManagementSoal/DaftarSoalIUK/DaftarSoalIUK.php';
+                                                break;
+                                                break;
+    case "daftarsoalkuk"                        :if(@!file_exists('Views/ManagementSoal/DaftarSoalKUK/DaftarSoalKUK.php'))
+                                                die('File tidak ada di directory');
+                                                include 'Views/ManagementSoal/DaftarSoalKUK/DaftarSoalKUK.php';
+                                                break;
+                                                break;
     case "kelolauser"                           :if(@!file_exists('Views/KelolaUser/KelolaUser.php'))
                                                 die('File tidak ada di directory');
                                                 include 'Views/KelolaUser/KelolaUser.php';
