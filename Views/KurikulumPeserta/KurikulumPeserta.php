@@ -41,7 +41,7 @@
                             <td>
                                 <a href="" class="text-white"><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href="" class="text-white"><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar" class="text-white"><i class="fa fa-book"></i>&nbsp;Modul</a>
                             </td>
                         </tr>
                         <tr>
@@ -51,7 +51,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                             </td>
                         <tr>
                             <th>3</th>
@@ -60,7 +60,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -72,7 +72,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -84,7 +84,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -96,7 +96,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -108,7 +108,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -120,7 +120,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -132,7 +132,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
@@ -144,7 +144,7 @@
                             <td>
                                 <a href=""><i class="fa fa-file-alt"></i>&nbsp;Silabus</a>
                                 &nbsp;
-                                <a href=""><i class="fa fa-book"></i>&nbsp;Modul</a>
+                                <a href="modulbelajar"><i class="fa fa-book"></i>&nbsp;Modul</a>
                                 <!-- &nbsp;
                                 <a href=""><i class="fa fa-check-square"></i>&nbsp;Kerjakan Assesment</a> -->
                             </td>
