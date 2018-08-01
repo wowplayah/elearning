@@ -28,7 +28,6 @@ switch($_GET['p'])
                                             break;
                                             break;
                                                         
-                                                        
     default                                 : echo "<script>document.location='home'</script>";
 }
 
