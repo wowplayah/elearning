@@ -34,7 +34,7 @@
                                                 <th>1.</th>
                                                 <td>T.970000.001.02/1/1.2/T2</td>
                                                 <td>Dapat menyesuaikan kehidupan sehari-hari dengan pola kehidupan di lingkungan tempat kerja</td>
-                                                <td><a href=""><i class="fa fa-pencil"></i> Mulai</a></td>
+                                                <td><a href="soalpeserta"><i class="fa fa-pencil"></i> Mulai</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
