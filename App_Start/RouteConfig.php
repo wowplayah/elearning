@@ -53,6 +53,7 @@ if(@!$_GET['p']){
         case "bukakelas":
         case "kepelatihan":
         case "penilaian":
+        case "profilpelatih":
             if(@!file_exists('Views/Shared/_LayoutPelatih.php'))
             die('File tidak ada di directory');
             include 'Views/Shared/_LayoutPelatih.php';
