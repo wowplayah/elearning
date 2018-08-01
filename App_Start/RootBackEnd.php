@@ -36,11 +36,6 @@ switch($_GET['p'])
                                                 include 'Views/Kurikulum/Kurikulum.php';
                                                 break;
                                                 break;
-    case "administrasi"                            :if(@!file_exists('Views/Administrasi/Administrasi.php'))
-                                                die('File tidak ada di directory');
-                                                include 'Views/Administrasi/Administrasi.php';
-                                                break;
-                                                break;
     case "tambahsoal"                           :if(@!file_exists('Views/ManagementSoal/TambahSoal/TambahSoal.php'))
                                                 die('File tidak ada di directory');
                                                 include 'Views/ManagementSoal/TambahSoal/TambahSoal.php';

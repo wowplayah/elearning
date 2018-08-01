@@ -48,3 +48,7 @@ RewriteRule ^testpendaftaran/? ?p=testpendaftaran
 
 RewriteRule ^tambahsoal/? ?p=tambahsoal
 RewriteRule ^daftarsoal/? ?p=daftarsoal
+
+
+RewriteRule ^profiltu/? ?p=profiltu
+RewriteRule ^administrasi/? ?p=administrasi
