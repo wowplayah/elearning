@@ -29,6 +29,8 @@ if(@!$_GET['p']){
         case "tambahsoal":
         case "daftarsoal":
         case "daftarsoaldetail":
+        case "daftarsoaliuk":
+        case "daftarsoalkuk":
         case "pbk":
         case "kurikulum":
         case "administrasi" :

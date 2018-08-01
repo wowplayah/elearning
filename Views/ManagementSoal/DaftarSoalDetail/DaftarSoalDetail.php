@@ -16,16 +16,19 @@
             <tr>
             <th scope="col">KODE_EK</th>
             <th scope="col">KOMPETENSI</th>
+            <th scope="col">JUMLAH SOAL</th>
             </tr>
         </thead>
-        <tbody style="cursor: pointer;" onclick="location.href='tambahsoal';">
+        <tbody style="cursor: pointer;" onclick="location.href='daftarsoalkuk';">
             <tr>
               <th>1</th>
               <td>Membina lingkungan kerja dan mengenal adat istiadat, peraturan, perundangan</td>
+              <td>1</td>
             </tr>
             <tr>
               <th>2</th>
               <td>Memahami bahaya perdagangan manusia, psikotropika, dan tindak kriminal</td>
+              <td>0</td>
             </tr>
         </tbody>
     </table>
