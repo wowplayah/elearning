@@ -30,13 +30,13 @@
             <tr>
               <th>2</th>
               <td>Mampu menerapkan paham keagamaan dan toleransi beragama tanpa meninggalkan faham keagamaan yang dianut</td>
-              <th>P (Prilaku)</th>
+              <th>T (Teori)</th>
               <td></td>
             </tr>
             <tr>
               <th>3</th>
               <td>Harus toleran dan taat asas</td>
-              <th>S (Sikap)</th>
+              <th>T (Teori)</th>
               <td></td>
             </tr>
         </tbody>
