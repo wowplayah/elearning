@@ -72,6 +72,5 @@ if(@!$_GET['p']){
         
         default: echo '<script>document.location="home"</script>';
     }
-
 }
 ?>

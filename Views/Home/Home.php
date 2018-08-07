@@ -10,6 +10,7 @@
             <h4 class="text-center"><a href="./">Backend</a></h4>
             <h4 class="text-center"><a href="profilpeserta">Peserta</a></h4>
             <h4 class="text-center"><a href="kepelatihan">Pelatih</a></h4>
+            <h4 class="text-center"><a href="administrasi">TU</a></h4>
         </div>
     </div>
 </div>
